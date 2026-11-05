@@ -35,8 +35,8 @@ You are the instructor and decide what goes in; Claude drafts, typesets and chec
 6. Claude writes the Chapter Test → you review.
 7. Export PDF + Word.
 
-**Pilot first:** we build one full chapter kit, you try it with a student, then we fix the
-template before doing the other 20 chapters.
+**Pilot first:** we build one full chapter kit, you review it closely (and try it with a
+student once you have one), then we fix the template before doing the other 20 chapters.
 
 ## 3. Teaching order
 
@@ -81,6 +81,6 @@ reusing the same type maps.
 
 ## 6. Open decisions
 
-- [ ] Which HSC batch are your students? (2027 = revision fast-track first; 2028 = full teaching kits)
-- [ ] Pilot chapter (suggested: 1P-01 Matrices and Determinants)
+- [x] Students: none yet. Build the materials first, as **full teaching kits** (from-scratch teaching, not a revision fast-track). A revision pack can be cut from them later.
+- [ ] Pilot chapter (suggested: 1P-01 Matrices and Determinants). Without a real student, the pilot gets reviewed by you instead.
 - [ ] Is the six-piece kit right, or drop/add something?
