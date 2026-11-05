@@ -25,12 +25,14 @@ from them. That way nothing in the exam is a surprise.
 
 ## 2. How we'll work on each chapter
 
-1. I read the chapter and its board questions from the scanned book and draft the type map.
-2. I walk you through the chapter: key ideas, shortcuts, where students lose marks. You tell me how you like to teach it.
+You are the instructor and decide what goes in; Claude drafts, typesets and checks.
+
+1. Claude reads the chapter and its board questions from the scanned book and drafts the type map.
+2. You tell Claude how you teach the chapter: topic order, methods, the shortcuts you use, what to leave out.
 3. You approve the type map.
-4. I write the Lecture Note and Formula Sheet → you review.
-5. I write the Practice Sheet + Answer Key → you review.
-6. I write the Chapter Test → you review.
+4. Claude writes the Lecture Note and Formula Sheet in your teaching style → you review.
+5. Claude writes the Practice Sheet + Answer Key, with every answer worked and checked → you review.
+6. Claude writes the Chapter Test → you review.
 7. Export PDF + Word.
 
 **Pilot first:** we build one full chapter kit, you try it with a student, then we fix the
