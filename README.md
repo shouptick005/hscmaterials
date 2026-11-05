@@ -55,3 +55,12 @@ In `04 Question Bank/Admission Questions/`, one folder per admission exam:
 - **Agriculture Cluster** (কৃষি গুচ্ছ): Udvash question bank with model tests (140 pp)
 
 Both are scanned PDFs. Like the books, they are git-ignored and kept local only.
+
+Each exam folder has:
+
+- `00 Cover and Contents.pdf`
+- `Exam Papers/`: one PDF per past exam, numbered in the book's order (newest first). DU has 2015-16 to 2024-25. Agriculture has the cluster papers for 2019-20 to 2024-25, plus older single-university papers (BAU, SAU, SYLAU, CVASU, GAU).
+- `Model Tests/`: one PDF per model test (DU 7, Agriculture 5)
+- `Full Book/`: the original, uncut PDF
+
+Each paper mixes all subjects (Physics, Chemistry, Math, Biology, and so on) on shared pages, so the PDFs can't be cut by subject or chapter.

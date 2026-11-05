@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "HSC Bangla";
+  src: url("fonts/NotoSerifBengali.ttf") format("truetype");
+  font-weight: 100 900;
+  unicode-range: U+0964-0965, U+0980-09FF, U+200C-200D, U+25CC;
+}
+@page {
+  size: A4;
+  margin: 14mm 12mm 16mm 12mm;
+  @bottom-center { content: counter(page); font: 9pt "HSC Bangla", "FreeSerif", serif; color: #555; }
+}
+html { font-family: "HSC Bangla", "FreeSerif", serif; font-size: 10.5pt; line-height: 1.5; color: #111; }
+body { margin: 0; }
+.katex { font-size: 1.05em; }
+
+/* Title block */
+.title { text-align: center; border-bottom: 2px solid #111; padding-bottom: 4pt; margin-bottom: 6pt; }
+.title .t1 { font-size: 15pt; font-weight: bold; }
+.title .t2 { font-size: 12pt; }
+.title .t3 { font-size: 10.5pt; color: #333; }
+
+/* Questions sheet: two columns like the board paper */
+.cols { column-count: 2; column-gap: 9mm; column-rule: 0.6pt solid #999; }
+h1 { font-size: 12pt; text-align: center; background: #111; color: #fff; padding: 2pt 0; margin: 8pt 0 4pt; column-span: all; }
+h2 { font-size: 11pt; margin: 8pt 0 2pt; border-bottom: 1pt solid #444; break-after: avoid; }
+h3 { font-size: 10pt; font-style: italic; font-weight: normal; color: #333; margin: 6pt 0 2pt; break-after: avoid; }
+.q { break-inside: avoid; margin: 0 0 6pt; }
+.q p { margin: 1pt 0; }
+.tag { float: right; font-size: 8.5pt; color: #444; margin-left: 4pt; }
+.items p { margin: 0 0 0 14pt; }
+.opts { display: grid; gap: 1pt 6pt; margin: 2pt 0 0 10pt; align-items: center; }
+.opts.c4 { grid-template-columns: repeat(4, auto); justify-content: start; column-gap: 14pt; }
+.opts.c2 { grid-template-columns: 1fr 1fr; }
+.opts p { margin: 0; }
+.ol { font-weight: bold; margin-right: 2pt; }
+.stim { break-inside: avoid; border: 0.8pt solid #444; border-radius: 3pt; padding: 3pt 5pt; margin: 4pt 0 4pt; background: #f4f4f4; }
+.stim p { margin: 1pt 0; }
+
+/* Solutions */
+.key { border: 1pt solid #111; padding: 4pt 6pt; margin: 4pt 0 10pt; break-inside: avoid; }
+.key p { margin: 1pt 0; }
+.s { break-inside: avoid; border-bottom: 0.5pt dashed #aaa; padding: 3pt 0 5pt; }
+.s p { margin: 2pt 0; }
+.s .katex-display { margin: 4pt 0; }
+.flag { border-left: 3pt solid #c62828; background: #fdecea; padding: 2pt 6pt; margin-top: 3pt; }
+.math-error { color: #c00; font-family: monospace; }
