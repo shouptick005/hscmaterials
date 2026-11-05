@@ -12,6 +12,7 @@ Workspace for mentoring HSC students for the academic exams and university admis
 | `04 Question Bank/` | `Board Questions`, `Admission Questions` (past papers), `Model Tests` you make |
 | `05 Students/` | One folder per student (`Firstname Lastname/`) + `Student Tracker.csv` for the overview |
 | `06 Admin/` | Schedule, fees, records; `Templates/` holds blank forms to copy |
+| `Dump/` | Inbox: drop new files here, then sort them into the folders above |
 
 ## Conventions
 
@@ -45,3 +46,12 @@ Each paper folder has:
 | 09 | Differentiation (অন্তরীকরণ) | Motion of Particles in a Plane (সমতলে বস্তুকণার গতি) |
 | 10 | Integration (যোগজীকরণ) | Dispersion and Probability (বিস্তার পরিমাপ ও সম্ভাবনা) |
 | 11 | Board Questions (textbook + solutions) | Board Questions (textbook only; the solution book has none) |
+
+## Current question banks
+
+In `04 Question Bank/Admission Questions/`, one folder per admission exam:
+
+- **DU Ka Unit** (ঢাবি 'ক' ইউনিট): Udvash question bank with model tests, 2025-26 (220 pp)
+- **Agriculture Cluster** (কৃষি গুচ্ছ): Udvash question bank with model tests (140 pp)
+
+Both are scanned PDFs. Like the books, they are git-ignored and kept local only.
